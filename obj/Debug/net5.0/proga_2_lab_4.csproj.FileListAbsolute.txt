@@ -1,0 +1,16 @@
+C:\Users\Akil0515\source\VS_projects\proga_2_lab\proga_2_lab_4\bin\Debug\net5.0\proga_2_lab_4.exe
+C:\Users\Akil0515\source\VS_projects\proga_2_lab\proga_2_lab_4\bin\Debug\net5.0\proga_2_lab_4.deps.json
+C:\Users\Akil0515\source\VS_projects\proga_2_lab\proga_2_lab_4\bin\Debug\net5.0\proga_2_lab_4.runtimeconfig.json
+C:\Users\Akil0515\source\VS_projects\proga_2_lab\proga_2_lab_4\bin\Debug\net5.0\proga_2_lab_4.runtimeconfig.dev.json
+C:\Users\Akil0515\source\VS_projects\proga_2_lab\proga_2_lab_4\bin\Debug\net5.0\proga_2_lab_4.dll
+C:\Users\Akil0515\source\VS_projects\proga_2_lab\proga_2_lab_4\bin\Debug\net5.0\ref\proga_2_lab_4.dll
+C:\Users\Akil0515\source\VS_projects\proga_2_lab\proga_2_lab_4\bin\Debug\net5.0\proga_2_lab_4.pdb
+C:\Users\Akil0515\source\VS_projects\proga_2_lab\proga_2_lab_4\obj\Debug\net5.0\proga_2_lab_4.csproj.AssemblyReference.cache
+C:\Users\Akil0515\source\VS_projects\proga_2_lab\proga_2_lab_4\obj\Debug\net5.0\proga_2_lab_4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Akil0515\source\VS_projects\proga_2_lab\proga_2_lab_4\obj\Debug\net5.0\proga_2_lab_4.AssemblyInfoInputs.cache
+C:\Users\Akil0515\source\VS_projects\proga_2_lab\proga_2_lab_4\obj\Debug\net5.0\proga_2_lab_4.AssemblyInfo.cs
+C:\Users\Akil0515\source\VS_projects\proga_2_lab\proga_2_lab_4\obj\Debug\net5.0\proga_2_lab_4.csproj.CoreCompileInputs.cache
+C:\Users\Akil0515\source\VS_projects\proga_2_lab\proga_2_lab_4\obj\Debug\net5.0\proga_2_lab_4.dll
+C:\Users\Akil0515\source\VS_projects\proga_2_lab\proga_2_lab_4\obj\Debug\net5.0\ref\proga_2_lab_4.dll
+C:\Users\Akil0515\source\VS_projects\proga_2_lab\proga_2_lab_4\obj\Debug\net5.0\proga_2_lab_4.pdb
+C:\Users\Akil0515\source\VS_projects\proga_2_lab\proga_2_lab_4\obj\Debug\net5.0\proga_2_lab_4.genruntimeconfig.cache
