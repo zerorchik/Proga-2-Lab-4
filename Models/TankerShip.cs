@@ -2,9 +2,10 @@
 {
     public class TankerShip : Ship
     {
-        public TankerShip()
+        public TankerShip(string model)
         {
             Name = "Танкер";
+            Model = model;
             Speed = 26;
             BaggagePower = 120000;
             OilType = "нефтеналивне паливо";
