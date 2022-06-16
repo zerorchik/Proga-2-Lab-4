@@ -1,31 +1,38 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="proga_2_lab_4.Models.Ship">
-    <Position X="12" Y="0.5" Width="1.5" />
+  <Class Name="proga_2_lab_4.Models.CaterShip">
+    <Position X="13.25" Y="6.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAQAABEAAAAAAQRAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\CaterShip.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="proga_2_lab_4.Models.Ship">
+    <Position X="15.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAABEAAAAAAQRAAAAAAAAAAgAAEAAAAE=</HashCode>
       <FileName>Models\Ship.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="proga_2_lab_4.Models.VantagnuyShip">
-    <Position X="12" Y="4" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Models\VantagnuyShip.cs</FileName>
-    </TypeIdentifier>
-  </Class>
   <Class Name="proga_2_lab_4.Models.TankerShip">
-    <Position X="9.75" Y="4" Width="1.5" />
+    <Position X="17.75" Y="6.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Models\TankerShip.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="proga_2_lab_4.Models.CaterShip">
-    <Position X="14.25" Y="4" Width="1.5" />
+  <Class Name="proga_2_lab_4.Models.VantagnuyShip">
+    <Position X="15.5" Y="6.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Models\CaterShip.cs</FileName>
+      <FileName>Models\VantagnuyShip.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="proga_2_lab_4.Models.Port">
+    <Position X="20.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAQAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Port.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />

@@ -12,18 +12,18 @@ namespace proga_2_lab_4
         {
             Console.OutputEncoding = System.Text.Encoding.Default;
 
-            List<Ship> ships = new List<Ship>
-            {
-                { new CaterShip("Аврора")},
-                { new TankerShip("Геркулес")},
-                { new VantagnuyShip("Україна")}
-            };
-
             List<Port> ports = new List<Port>
             {
                 { new Port("Гавайський", 3)},
                 { new Port("Аутагавський", 7)},
                 { new Port("Токійський", 8)}
+            };
+
+            List<Ship> ships = new List<Ship>
+            {
+                { new CaterShip("Аврора", ports[0])},
+                { new TankerShip("Геркулес", ports[1])},
+                { new VantagnuyShip("Україна", ports[2])}
             };
 
             foreach (Ship ship in ships)
@@ -41,26 +41,36 @@ namespace proga_2_lab_4
             int time = Math.Abs(ports[port1].Koord - ports[port2].Koord);
             Console.WriteLine("\nПодорож складатиме " + time + " годин");
             Console.WriteLine();
+
             foreach (Ship ship in ships)
                 Console.WriteLine(ship.GetOil(time));
 
-            Console.WriteLine("\nДодайте нове судно: ");
+            // Додавання нового судна до списку суден вказаного порта (реалізація списку суден в класі Port)
+            Console.WriteLine("\nДОДАЙТЕ НОВЕ СУДНО: ");
             Console.WriteLine("Оберіть тип судна (0/1/2): \n   Катер\n   Вантажне судно\n   Танкер");
             int newType = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("\nУведіть його модель: ");
             string model = Console.ReadLine();
-            if (newType == 0) ships.Add(new CaterShip(model));
-            else if (newType == 1) ships.Add(new VantagnuyShip(model));
-            else ships.Add(new TankerShip(model));
-            Console.WriteLine("\nУсі судна в порту:");
-            foreach (Ship ship in ships)
+            Console.WriteLine("\nВиберіть порт нового судна (0/1/2): ");
+            int port0 = Convert.ToInt32(Console.ReadLine());
+
+            if (newType == 0) new CaterShip(model, ports[port0]);
+            else if (newType == 1) new VantagnuyShip(model, ports[port0]);
+            else new TankerShip(model, ports[port0]);
+
+            Console.WriteLine("\nСУДНА У ВСІХ ПОРТАХ:");
+            foreach (Ship ship in Ship.Items.Values)
                 Console.WriteLine(ship);
 
-            Console.WriteLine("\nЗнайдіть судна по типу пального (0/1/2): \n   дизель\n   газ\n   нефтеналивне паливо");
+            // Виклик методу підрахунку кількості суден за типом пального (реалізація в класі Port)
+            Console.WriteLine("\nЗНАЙДІТЬ СУДНО ПО ТИПУ ПАЛЬНОГО (0/1/2): \n   дизель\n   газ\n   нефтеналивне паливо");
             int type = Convert.ToInt32(Console.ReadLine());
-            if (type == 0) Ship.GetCountOfShipsOnOil("дизель", ships);
-            else if (type == 1) Ship.GetCountOfShipsOnOil("газ", ships);
-            else Ship.GetCountOfShipsOnOil("нефтеналивне паливо", ships);
+            Console.WriteLine("\nВиберіть порт, у якому хочете порахувати кількість суден за вказним типом палива (0/1/2): ");
+            int port3 = Convert.ToInt32(Console.ReadLine());
+
+            if (type == 0) ports[port3].GetCountOfShipsOnOil("дизель", Ship.Items);
+            else if (type == 1) ports[port3].GetCountOfShipsOnOil("газ", Ship.Items);
+            else ports[port3].GetCountOfShipsOnOil("нефтеналивне паливо", Ship.Items);
         }
     }
 }

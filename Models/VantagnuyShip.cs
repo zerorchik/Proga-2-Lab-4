@@ -2,10 +2,11 @@
 {
     public class VantagnuyShip : Ship
     {
-        public VantagnuyShip(string model)
+        public VantagnuyShip(string model, Port port)
         {
             Name = "Вантажне судно";
             Model = model;
+            StartPort = port;
             Speed = 59;
             BaggagePower = 65000;
             OilType = "газ";
